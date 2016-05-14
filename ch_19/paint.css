@@ -1,3 +1,4 @@
+
 .picturepanel {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -8,6 +9,8 @@
   border: 2px solid silver;
   overflow: auto;
   position: relative;
+  /*I added below line*/
+  margin:5%;
 }
 .picturepanel canvas { display: block; }
-.toolbar > * { margin-right: 5px; }
+.toolbar > * { /*I added*/ margin:3%; margin-right: 5px; }
